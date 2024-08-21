@@ -161,8 +161,7 @@ export const DATA = {
         'Integrated Clerk for secure user authentication, supporting social sign-in and traditional email/password methods, while managing user access levels and permissions within the platform',
         'Leveraged GetStream SDK for video conferencing and implemented features like instant meetings, scheduled meetings, and viewing past meetings',
       ],
-      description:
-        'A AI powered SaaS, which can generate any fantasy image from your prompt within few seconds with loads of customizations and free tier options.',
+      description: '',
       technologies: [
         'Next.js',
         'Typescript',
@@ -184,7 +183,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: 'https://pub-4eb988ed8d6b4f25b7e050d31e2d2a8e.r2.dev/craftura.mp4',
+      video: '',
     },
     {
       title: 'Connectify',
@@ -199,8 +198,7 @@ export const DATA = {
         'Employed Recoil for efficient frontend state management, ensuring optimal data flow and component synchronization',
         'Integrated real-time chat functionality within the application using Socket.IO for seamless communication',
       ],
-      description:
-        'A AI powered SaaS, which can generate any fantasy image from your prompt within few seconds with loads of customizations and free tier options.',
+      description: '',
       technologies: [
         'Node.js',
         'Express.js',
@@ -218,7 +216,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: 'https://pub-4eb988ed8d6b4f25b7e050d31e2d2a8e.r2.dev/craftura.mp4',
+      video: '',
     },
     {
       title: 'Chat App',
@@ -231,8 +229,7 @@ export const DATA = {
         'Leveraged Redis to address scalability challenges, facilitating seamless communication between servers by routing incoming messages to a Redis Cluster and utilizing Socket.IO for real-time bidirectional event-based communication, ensuring uninterrupted user interactions across multiple server instances',
         'Integrated Kafka to effectively handle high message volume and user activity, utilizing its capabilities as a message broker to efficiently manage incoming messages, reducing strain on the database and ensuring optimal performance during peak usage periods',
       ],
-      description:
-        'A AI powered SaaS, which can generate any fantasy image from your prompt within few seconds with loads of customizations and free tier options.',
+      description: '',
       technologies: [
         'Node.js',
         'Next.js',
@@ -251,7 +248,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: 'https://pub-4eb988ed8d6b4f25b7e050d31e2d2a8e.r2.dev/craftura.mp4',
+      video: '',
     },
     {
       title: 'V-Tube',
@@ -264,8 +261,7 @@ export const DATA = {
         'Developed a Upload Service using Node.js which uploads videos to AWS S3, records metadata in PostgreSQL, and publishes it to a Kafka queue',
         'Designed a Transcode Service which consumes message from Kafka, transcodes video using ffmpeg into multiple HLS resolutions, uploads back to S3 and updates the database',
       ],
-      description:
-        'A AI powered SaaS, which can generate any fantasy image from your prompt within few seconds with loads of customizations and free tier options.',
+      description: '',
       technologies: [
         'Node.js',
         'Next.js',
@@ -283,7 +279,7 @@ export const DATA = {
         },
       ],
       image: '',
-      video: 'https://pub-4eb988ed8d6b4f25b7e050d31e2d2a8e.r2.dev/craftura.mp4',
+      video: '',
     },
   ],
 };
