@@ -67,8 +67,7 @@ export const DATA = {
         'Implemented CRUD operations in the user manager service, improving backend functionality and user management',
         'Addressed and resolved 40% of reported bugs promptly, improving application quality and stability',
       ],
-      description:
-        'As a Tutor at CAD Computer Center, I had the opportunity to share my knowledge and passion for web development with over 50 students. I designed and delivered engaging lessons, covering topics from basics to advanced levels, and provided personalized assistance to ensure each student understood and improved their skills. By using interactive teaching methods, I kept students motivated and involved in the learning process, helping them to master web development and achieve their goals.',
+      description: '',
     },
   ],
 
@@ -149,6 +148,20 @@ export const DATA = {
       end: 'March 2023',
     },
   ],
+  achievements: [
+    {
+      key: 1,
+      img: '/lcLogo.png',
+      description:
+        'Secured Global Rank 98 in Leetcode Biweekly Contest 133 among 35000 participants',
+    },
+    {
+      key: 2,
+      img: '/lcLogo.png',
+      description:
+        'Secured Global Rank 550 in Leetcode Biweekly Contest 131 among 30000 participants',
+    },
+  ],
   projects: [
     {
       title: 'Huddle',
@@ -183,7 +196,8 @@ export const DATA = {
         },
       ],
       image: '',
-      video: '',
+      video:
+        'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/huddle_demo.mp4',
     },
     {
       title: 'Connectify',
@@ -191,7 +205,7 @@ export const DATA = {
       dates: 'Jan 2024 - Feb 2024',
       active: false,
       points: [
-        'Developed a full stack social media platform, mimicking the main functionality and design similar to Threads',
+        'Built a full-stack social media platform inspired by Threads, replicating core functionalities and user experience',
         'Utilized a tech stack comprising Node.js and Express.js for the backend, React.js for the frontend, and MongoDB for the database',
         'Implemented key features such as post creation, liking, replying, follow/unfollow, and a feed page',
         'Leveraged Cloudinary for image management, enabling users to share image in posts',
@@ -216,7 +230,8 @@ export const DATA = {
         },
       ],
       image: '',
-      video: '',
+      video:
+        'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/connectify_demo.mp4',
     },
     {
       title: 'Chat App',
@@ -247,7 +262,7 @@ export const DATA = {
           icon: <Icons.github className='size-3' />,
         },
       ],
-      image: '',
+      image: '/chatApp.png',
       video: '',
     },
     {
@@ -279,7 +294,8 @@ export const DATA = {
         },
       ],
       image: '',
-      video: '',
+      video:
+        'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/vtube_demo.mp4',
     },
   ],
 };

@@ -22,9 +22,9 @@ export default function Page() {
               <div className='flex gap-2 justify-start items-center'>
                 <BlurFadeText
                   delay={BLUR_FADE_DELAY}
-                  className='text-3xl font-bold tracking-tighter sm:text-5xl xl:text-6xl/none'
+                  className='text-3xl font-extrabold tracking-tighter sm:text-4xl xl:text-5xl/none'
                   yOffset={8}
-                  text={`Hi, I'm ${DATA.name.split(' ')[0]}`}
+                  text={`< Hi, I'm ${DATA.name.split(' ')[0]} />`}
                 />
                 <BlurFade delay={BLUR_FADE_DELAY}>
                   <WavingHand />
@@ -146,6 +146,24 @@ export default function Page() {
           ))}
         </div>
       </section> */}
+
+      <section id='achievements'>
+        <div className='flex min-h-0 flex-col gap-y-2'>
+          <BlurFade delay={BLUR_FADE_DELAY * 4}>
+            <h2 className='text-xl font-bold'>Achievements</h2>
+          </BlurFade>
+          {DATA.achievements.map((a, id) => (
+            <BlurFade key={a.key} delay={BLUR_FADE_DELAY * 4.5 + id * 0.05}>
+              <Badge
+                className='prose max-w-full text-pretty font-sans text-sm text-muted-foreground dark:prose-invert'
+                variant='outline'
+              >
+                {a.description}
+              </Badge>
+            </BlurFade>
+          ))}
+        </div>
+      </section>
 
       <section id='projects'>
         <div className='space-y-12 w-full py-12'>
