@@ -11,7 +11,8 @@ export const DATA = {
   summary:
     "A full stack developer with a passion for building scalable and user-friendly web applications. I'm a self-driven, passionate programmer with a deep interest in problem-solving and creating innovative solutions. With a solid foundation in both frontend and backend technologies, I thrive on turning complex challenges into streamlined, efficient applications.",
 
-  avatarUrl: '/Sanjay_Pic.jpg',
+  avatarUrl:
+    'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/Sanjay_pic.jpg',
   skills: {
     part1: ['C++', 'JavaScript', 'TypeScript', 'Python', 'HTML', 'CSS'],
     part2: ['Node.js', 'Express.js', 'React.js', 'Next.js', 'Hono'],
