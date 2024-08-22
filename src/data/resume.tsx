@@ -45,7 +45,7 @@ export const DATA = {
 
       Resume: {
         name: 'Resume',
-        url: 'https://drive.google.com/file/d/1Nc-Xptw1HRfiIvS-u7G6gD9NuFYKDLZM/view',
+        url: 'https://drive.google.com/file/d/1JkF7OV81MdracixxAeOOx5fB1d7ibjC_/view?usp=drive_link',
         icon: Icons.resume,
         navbar: true,
       },
@@ -72,83 +72,7 @@ export const DATA = {
     },
   ],
 
-  coursework: [
-    {
-      course: 'Full Stack + DevOps',
-      provider: '100xDevs',
-      href: 'https://100xdevs.com/',
-      logoUrl: '/100xdevs.jpg',
-      description:
-        'Comprehensive full-stack development and DevOps course covering advanced topics',
-      skills: [
-        'TypeScript',
-        'Next.js',
-        'Serverless',
-        'Cloudflare',
-        'Kubernetes',
-        'Socket.io',
-        'WebRTC',
-        'tRPC',
-        'Redis',
-        'Docker',
-        'PostgreSQL',
-        'Prisma',
-        'OpenAPI',
-        'DDoS prevention',
-        'Rate limiting',
-        'PubSub',
-        'Kafka',
-      ],
-      start: 'Jan 2024',
-      end: 'Aug 2024',
-    },
-    {
-      course: 'Full Stack Web Development',
-      provider: 'PW Skills',
-      href: 'https://pwskills.com/',
-      logoUrl: '/pwskills.jpg',
-      description:
-        'In-depth full-stack web development course with emphasis on project building and understanding complex codebases',
-      skills: [
-        'HTML',
-        'CSS',
-        'JavaScript',
-        'React.js',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'Redux',
-        'JWT',
-        'RESTful APIs',
-      ],
-      start: 'Feb 2023',
-      end: 'Nov 2023',
-    },
-    {
-      course: 'MERN Stack Development',
-      provider: 'Coding Shuttle',
-      href: 'https://www.codingshuttle.com/',
-      logoUrl: '/codingshuttle.png',
-      description:
-        'Comprehensive MERN stack course covering front-end and back-end technologies',
-      skills: [
-        'HTML',
-        'CSS',
-        'SCSS',
-        'JavaScript',
-        'React.js',
-        'Node.js',
-        'Express.js',
-        'MongoDB',
-        'JWT',
-        'Redux Toolkit',
-        'Cloudinary',
-        'MVC Architecture',
-      ],
-      start: 'Nov 2022',
-      end: 'March 2023',
-    },
-  ],
+  coursework: [],
   achievements: [
     {
       key: 1,
@@ -199,6 +123,39 @@ export const DATA = {
       image: '',
       video:
         'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/huddle_demo.mp4',
+    },
+    {
+      title: 'V-Tube',
+      href: 'https://github.com/SanjayM-2002/vtube',
+      dates: 'July 2024 - Aug 2024',
+      active: false,
+      points: [
+        'Developed a video processing and streaming system with multiple services, handling video upload, transcoding, and delivery efficiently',
+        'Built a Next.js client to stream videos and integrated NextAuth to restrict uploads to authenticated users',
+        'Developed a Upload Service using Node.js which uploads videos to AWS S3, records metadata in PostgreSQL, and publishes it to a Kafka queue',
+        'Designed a Transcode Service which consumes message from Kafka, transcodes video using ffmpeg into multiple HLS resolutions, uploads back to S3 and updates the database',
+      ],
+      description: '',
+      technologies: [
+        'Node.js',
+        'Express.js',
+        'Next.js',
+        'PostgreSQL',
+        'Kafka',
+        'S3',
+        'Prisma',
+        'NextAuth',
+      ],
+      links: [
+        {
+          type: 'Source',
+          href: 'https://github.com/SanjayM-2002/vtube',
+          icon: <Icons.github className='size-3' />,
+        },
+      ],
+      image: '',
+      video:
+        'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/vtube_demo.mp4',
     },
     {
       title: 'Connectify',
@@ -265,38 +222,6 @@ export const DATA = {
       ],
       image: '/chatApp.png',
       video: '',
-    },
-    {
-      title: 'V-Tube',
-      href: 'https://github.com/SanjayM-2002/vtube',
-      dates: 'July 2024 - Aug 2024',
-      active: false,
-      points: [
-        'Developed a video processing and streaming system with multiple services, handling video upload, transcoding, and delivery efficiently',
-        'Built a Next.js client to stream videos and integrated NextAuth to restrict uploads to authenticated users',
-        'Developed a Upload Service using Node.js which uploads videos to AWS S3, records metadata in PostgreSQL, and publishes it to a Kafka queue',
-        'Designed a Transcode Service which consumes message from Kafka, transcodes video using ffmpeg into multiple HLS resolutions, uploads back to S3 and updates the database',
-      ],
-      description: '',
-      technologies: [
-        'Node.js',
-        'Next.js',
-        'PostgreSQL',
-        'Kafka',
-        'S3',
-        'Prisma',
-        'NextAuth',
-      ],
-      links: [
-        {
-          type: 'Source',
-          href: 'https://github.com/SanjayM-2002/vtube',
-          icon: <Icons.github className='size-3' />,
-        },
-      ],
-      image: '',
-      video:
-        'https://sanjay-projects.s3.ap-south-1.amazonaws.com/demo-videos/vtube_demo.mp4',
     },
   ],
 };
