@@ -54,6 +54,23 @@ export const DATA = {
 
   work: [
     {
+      company: 'CryptoPool',
+      href: '',
+      badges: [],
+      location: 'Remote',
+      title: 'Full Stack Developer',
+      logoUrl: 'CryptoPool_Logo.png',
+      start: 'July 2024',
+      end: 'Sept 2024',
+      points: [
+        'Integrated two payment providers into the backend, enhancing the platform’s payment processing capabilities',
+        'Developed REST APIs for admin operations, handling administrative tasks and merchant account management',
+        'Built a Merchant Dashboard in Next.js, providing clients with an intuitive interface to manage their transactions and track payment activities',
+        'Created an Admin Dashboard in React.js for internal use, enabling efficient tracking and management of merchant details and transaction records',
+      ],
+      description: '',
+    },
+    {
       company: 'Alts Wealth',
       href: '',
       badges: [],

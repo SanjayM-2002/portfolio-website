@@ -36,7 +36,7 @@ export const ResumeCard = ({
   const [isExpanded, setIsExpanded] = React.useState(true);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
+    if (points) {
       e.preventDefault();
       setIsExpanded(!isExpanded);
     }
